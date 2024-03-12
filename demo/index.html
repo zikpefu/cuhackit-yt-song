@@ -207,7 +207,7 @@
             }
 
             function getYouTubeVideoDuration(videoID) {
-                var apiKey = "AIzaSyBAvL6Zudum0PKiBn5_gshSiuVvhFXlA4Q";
+                var apiKey = "$API_KEY";
                 var endpoint = "https://www.googleapis.com/youtube/v3/videos?id=" + videoID + "&key=" + apiKey + "&part=snippet,contentDetails";
                 var videoDuration = null;
                 $.ajax({
